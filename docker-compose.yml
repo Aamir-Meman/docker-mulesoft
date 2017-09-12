@@ -1,0 +1,14 @@
+version: '3'
+services:
+  mule-app:
+    build:
+     context: .
+     dockerfile: Dockerfile
+    image: mulesoft
+    volumes:
+    - ./apps:/opt/mule/apps
+    - ./conf:/opt/mule/conf
+    - ./logs:/opt/mule/logs
+    ports:
+     - 8181:8181
+     

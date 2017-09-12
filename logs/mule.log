@@ -1,0 +1,366 @@
+--> Wrapper Started as Console
+Launching a JVM...
+OpenJDK 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Using the ParNew young collector with the Serial old collector is deprecated and will likely be removed in a future release
+Starting the Mule Container...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+INFO  2017-09-12 18:43:51,488 [WrapperListener_start_runner] org.mule.module.launcher.MuleContainer: 
+**********************************************************************
+* Mule Runtime and Integration Platform                              *
+* Version: 3.8.0 Build: 4afebcb3                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to http://www.mulesoft.org                 *
+*                                                                    *
+* Server started: 9/12/17 6:43 PM                                    *
+* JDK: 1.8.0_111 (mixed mode)                                        *
+* OS: Linux (4.9.41-moby, amd64)                                     *
+* Host: 3830e07edda0 (172.18.0.2)                                    *
+**********************************************************************
+INFO  2017-09-12 18:43:51,494 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Initializing core extensions
+INFO  2017-09-12 18:43:51,494 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Starting core extensions
+INFO  2017-09-12 18:43:51,520 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-09-12 18:43:51,531 [WrapperListener_start_runner] org.mule.module.launcher.MuleSharedDomainClassLoader: Using domain dir /opt/mule/domains/default for domain default
+INFO  2017-09-12 18:43:51,659 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started domain 'default'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 18:43:51,684 [WrapperListener_start_runner] org.mule.module.launcher.ArtifactArchiveInstaller: Exploding a Mule artifact archive: file:/opt/mule/apps/mule-hello.zip
+INFO  2017-09-12 18:43:51,726 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'mule-hello'                                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 18:43:56,982 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'mule-hello'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 18:43:56,992 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-09-12 18:43:56,997 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'default'                                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 18:43:57,487 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'default'                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 18:43:57,493 [WrapperListener_start_runner] org.mule.module.launcher.DeploymentDirectoryWatcher: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Mule is up and kicking (every 5000ms)                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 18:43:57,534 [WrapperListener_start_runner] org.mule.module.launcher.StartupSummaryDeploymentListener: 
+**********************************************************************
+*              - - + DOMAIN + - -               * - - + STATUS + - - *
+**********************************************************************
+* default                                       * DEPLOYED           *
+**********************************************************************
+
+*******************************************************************************************************
+*            - - + APPLICATION + - -            *       - - + DOMAIN + - -       * - - + STATUS + - - *
+*******************************************************************************************************
+* default                                       * default                        * DEPLOYED           *
+* mule-hello                                    * default                        * DEPLOYED           *
+*******************************************************************************************************
+
+--> Wrapper Started as Console
+Launching a JVM...
+OpenJDK 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Using the ParNew young collector with the Serial old collector is deprecated and will likely be removed in a future release
+Starting the Mule Container...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+INFO  2017-09-12 19:29:38,029 [WrapperListener_start_runner] org.mule.module.launcher.MuleContainer: 
+**********************************************************************
+* Mule Runtime and Integration Platform                              *
+* Version: 3.8.0 Build: 4afebcb3                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to http://www.mulesoft.org                 *
+*                                                                    *
+* Server started: 9/12/17 7:29 PM                                    *
+* JDK: 1.8.0_111 (mixed mode)                                        *
+* OS: Linux (4.9.41-moby, amd64)                                     *
+* Host: 25feaf5522e7 (172.18.0.2)                                    *
+**********************************************************************
+INFO  2017-09-12 19:29:38,034 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Initializing core extensions
+INFO  2017-09-12 19:29:38,034 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Starting core extensions
+INFO  2017-09-12 19:29:38,066 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-09-12 19:29:38,081 [WrapperListener_start_runner] org.mule.module.launcher.MuleSharedDomainClassLoader: Using domain dir /opt/mule/domains/default for domain default
+INFO  2017-09-12 19:29:38,209 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started domain 'default'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:29:38,221 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: mule-hello
+INFO  2017-09-12 19:29:38,242 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'mule-hello'                                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:29:43,368 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'mule-hello'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:29:43,378 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-09-12 19:29:43,383 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'default'                                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:29:44,056 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'default'                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:29:44,061 [WrapperListener_start_runner] org.mule.module.launcher.DeploymentDirectoryWatcher: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Mule is up and kicking (every 5000ms)                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:29:44,085 [WrapperListener_start_runner] org.mule.module.launcher.StartupSummaryDeploymentListener: 
+**********************************************************************
+*              - - + DOMAIN + - -               * - - + STATUS + - - *
+**********************************************************************
+* default                                       * DEPLOYED           *
+**********************************************************************
+
+*******************************************************************************************************
+*            - - + APPLICATION + - -            *       - - + DOMAIN + - -       * - - + STATUS + - - *
+*******************************************************************************************************
+* default                                       * default                        * DEPLOYED           *
+* mule-hello                                    * default                        * DEPLOYED           *
+*******************************************************************************************************
+
+--> Wrapper Started as Console
+Launching a JVM...
+OpenJDK 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Using the ParNew young collector with the Serial old collector is deprecated and will likely be removed in a future release
+Starting the Mule Container...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+INFO  2017-09-12 19:52:08,847 [WrapperListener_start_runner] org.mule.module.launcher.MuleContainer: 
+**********************************************************************
+* Mule Runtime and Integration Platform                              *
+* Version: 3.8.0 Build: 4afebcb3                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to http://www.mulesoft.org                 *
+*                                                                    *
+* Server started: 9/12/17 7:52 PM                                    *
+* JDK: 1.8.0_111 (mixed mode)                                        *
+* OS: Linux (4.9.41-moby, amd64)                                     *
+* Host: df0a81c81ea0 (172.18.0.2)                                    *
+**********************************************************************
+INFO  2017-09-12 19:52:08,853 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Initializing core extensions
+INFO  2017-09-12 19:52:08,853 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Starting core extensions
+INFO  2017-09-12 19:52:08,876 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-09-12 19:52:08,888 [WrapperListener_start_runner] org.mule.module.launcher.MuleSharedDomainClassLoader: Using domain dir /opt/mule/domains/default for domain default
+INFO  2017-09-12 19:52:09,013 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started domain 'default'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:52:09,023 [WrapperListener_start_runner] org.mule.module.launcher.ArtifactArchiveInstaller: Exploding a Mule artifact archive: file:/opt/mule/apps/pssaccountupdater-1.zip
+INFO  2017-09-12 19:52:14,817 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'pssaccountupdater-1'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:52:14,819 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: App 'pssaccountupdater-1' never started, nothing to dispose of
+ERROR 2017-09-12 19:52:14,819 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Failed to deploy artifact 'pssaccountupdater-1', see     +
++ below                                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+org.mule.module.launcher.InstallException: Config for app 'pssaccountupdater-1' not found: /opt/mule/apps/pssaccountupdater-1/mule-config.xml
+	at org.mule.module.launcher.application.DefaultMuleApplication.install(DefaultMuleApplication.java:101) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.artifact.ArtifactWrapper$3.execute(ArtifactWrapper.java:75) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.install(ArtifactWrapper.java:70) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:24) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArchiveDeployer.guardedDeploy(DefaultArchiveDeployer.java:324) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployArtifact(DefaultArchiveDeployer.java:345) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:163) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:268) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:83) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.deployPackedApps(DeploymentDirectoryWatcher.java:275) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.start(DeploymentDirectoryWatcher.java:150) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.MuleDeploymentService.start(MuleDeploymentService.java:104) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.MuleContainer.start(MuleContainer.java:170) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
+	at org.mule.module.reboot.MuleContainerWrapper.start(MuleContainerWrapper.java:52) ~[mule-module-reboot-3.8.0.jar:3.8.0]
+	at org.tanukisoftware.wrapper.WrapperManager$12.run(WrapperManager.java:2788) ~[wrapper-3.2.3.jar:3.2.3]
+INFO  2017-09-12 19:52:15,011 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-09-12 19:52:15,055 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'default'                                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:52:20,741 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'default'                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:52:20,751 [WrapperListener_start_runner] org.mule.module.launcher.DeploymentDirectoryWatcher: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Mule is up and kicking (every 5000ms)                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 19:52:20,762 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.DefaultArchiveDeployer: ================== Request to Undeploy Artifact: pssaccountupdater-1
+INFO  2017-09-12 19:52:20,763 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.application.DefaultMuleApplication: App 'pssaccountupdater-1' never started, nothing to dispose of
+ERROR 2017-09-12 19:52:20,768 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: java.lang.NullPointerException
+INFO  2017-09-12 19:52:21,200 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.DefaultArchiveDeployer: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Undeployed artifact 'pssaccountupdater-1'                +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--> Wrapper Started as Console
+Launching a JVM...
+OpenJDK 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Using the ParNew young collector with the Serial old collector is deprecated and will likely be removed in a future release
+Starting the Mule Container...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+INFO  2017-09-12 20:08:56,896 [WrapperListener_start_runner] org.mule.module.launcher.MuleContainer: 
+**********************************************************************
+* Mule Runtime and Integration Platform                              *
+* Version: 3.8.0 Build: 4afebcb3                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to http://www.mulesoft.org                 *
+*                                                                    *
+* Server started: 9/12/17 8:08 PM                                    *
+* JDK: 1.8.0_111 (mixed mode)                                        *
+* OS: Linux (4.9.41-moby, amd64)                                     *
+* Host: 5a485aa63cf9 (172.18.0.2)                                    *
+**********************************************************************
+INFO  2017-09-12 20:08:56,901 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Initializing core extensions
+INFO  2017-09-12 20:08:56,902 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Starting core extensions
+INFO  2017-09-12 20:08:56,923 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-09-12 20:08:56,933 [WrapperListener_start_runner] org.mule.module.launcher.MuleSharedDomainClassLoader: Using domain dir /opt/mule/domains/default for domain default
+INFO  2017-09-12 20:08:57,036 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started domain 'default'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 20:08:57,050 [WrapperListener_start_runner] org.mule.module.launcher.ArtifactArchiveInstaller: Exploding a Mule artifact archive: file:/opt/mule/apps/pssaccountupdater-1.zip
+INFO  2017-09-12 20:09:01,220 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'pssaccountupdater-1'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 20:09:01,222 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: App 'pssaccountupdater-1' never started, nothing to dispose of
+ERROR 2017-09-12 20:09:01,222 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Failed to deploy artifact 'pssaccountupdater-1', see     +
++ below                                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+org.mule.module.launcher.InstallException: Config for app 'pssaccountupdater-1' not found: /opt/mule/apps/pssaccountupdater-1/mule-config.xml
+	at org.mule.module.launcher.application.DefaultMuleApplication.install(DefaultMuleApplication.java:101) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.artifact.ArtifactWrapper$3.execute(ArtifactWrapper.java:75) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.executeWithinArtifactClassLoader(ArtifactWrapper.java:136) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.artifact.ArtifactWrapper.install(ArtifactWrapper.java:70) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArtifactDeployer.deploy(DefaultArtifactDeployer.java:24) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArchiveDeployer.guardedDeploy(DefaultArchiveDeployer.java:324) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployArtifact(DefaultArchiveDeployer.java:345) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:163) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:268) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DefaultArchiveDeployer.deployPackagedArtifact(DefaultArchiveDeployer.java:83) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.deployPackedApps(DeploymentDirectoryWatcher.java:275) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.DeploymentDirectoryWatcher.start(DeploymentDirectoryWatcher.java:150) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.MuleDeploymentService.start(MuleDeploymentService.java:104) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at org.mule.module.launcher.MuleContainer.start(MuleContainer.java:170) ~[mule-module-launcher-3.8.0.jar:3.8.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_111]
+	at org.mule.module.reboot.MuleContainerWrapper.start(MuleContainerWrapper.java:52) ~[mule-module-reboot-3.8.0.jar:3.8.0]
+	at org.tanukisoftware.wrapper.WrapperManager$12.run(WrapperManager.java:2788) ~[wrapper-3.2.3.jar:3.2.3]
+INFO  2017-09-12 20:09:01,436 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-09-12 20:09:01,444 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'default'                                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 20:09:08,324 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'default'                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 20:09:08,331 [WrapperListener_start_runner] org.mule.module.launcher.DeploymentDirectoryWatcher: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Mule is up and kicking (every 5000ms)                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 20:09:08,342 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.DefaultArchiveDeployer: ================== Request to Undeploy Artifact: pssaccountupdater-1
+INFO  2017-09-12 20:09:08,344 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.application.DefaultMuleApplication: App 'pssaccountupdater-1' never started, nothing to dispose of
+ERROR 2017-09-12 20:09:08,349 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: java.lang.NullPointerException
+INFO  2017-09-12 20:09:09,115 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.DefaultArchiveDeployer: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Undeployed artifact 'pssaccountupdater-1'                +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 21:02:50,812 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.ArtifactArchiveInstaller: Exploding a Mule artifact archive: file:/opt/mule/apps/mule-hello.zip
+INFO  2017-09-12 21:02:50,848 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'mule-hello'                                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 21:02:52,473 [Mule.app.deployer.monitor.1.thread.1] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'mule-hello'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+--> Wrapper Started as Console
+Launching a JVM...
+OpenJDK 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Using the ParNew young collector with the Serial old collector is deprecated and will likely be removed in a future release
+Starting the Mule Container...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+INFO  2017-09-12 22:02:21,098 [WrapperListener_start_runner] org.mule.module.launcher.MuleContainer: 
+**********************************************************************
+* Mule Runtime and Integration Platform                              *
+* Version: 3.8.0 Build: 4afebcb3                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to http://www.mulesoft.org                 *
+*                                                                    *
+* Server started: 9/12/17 10:02 PM                                   *
+* JDK: 1.8.0_111 (mixed mode)                                        *
+* OS: Linux (4.9.41-moby, amd64)                                     *
+* Host: 71a60884583e (172.18.0.2)                                    *
+**********************************************************************
+INFO  2017-09-12 22:02:21,103 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Initializing core extensions
+INFO  2017-09-12 22:02:21,103 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Starting core extensions
+INFO  2017-09-12 22:02:21,126 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-09-12 22:02:21,140 [WrapperListener_start_runner] org.mule.module.launcher.MuleSharedDomainClassLoader: Using domain dir /opt/mule/domains/default for domain default
+INFO  2017-09-12 22:02:21,304 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started domain 'default'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 22:02:21,327 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: mule-hello
+INFO  2017-09-12 22:02:21,375 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'mule-hello'                                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 22:02:27,418 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'mule-hello'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 22:02:27,430 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-09-12 22:02:27,435 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'default'                                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 22:02:28,126 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'default'                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 22:02:28,137 [WrapperListener_start_runner] org.mule.module.launcher.DeploymentDirectoryWatcher: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Mule is up and kicking (every 5000ms)                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-09-12 22:02:28,169 [WrapperListener_start_runner] org.mule.module.launcher.StartupSummaryDeploymentListener: 
+**********************************************************************
+*              - - + DOMAIN + - -               * - - + STATUS + - - *
+**********************************************************************
+* default                                       * DEPLOYED           *
+**********************************************************************
+
+*******************************************************************************************************
+*            - - + APPLICATION + - -            *       - - + DOMAIN + - -       * - - + STATUS + - - *
+*******************************************************************************************************
+* default                                       * default                        * DEPLOYED           *
+* mule-hello                                    * default                        * DEPLOYED           *
+*******************************************************************************************************
+
