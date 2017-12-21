@@ -155,3 +155,35 @@ INFO  2017-09-12 22:02:28,121 [WrapperListener_start_runner] org.mule.DefaultMul
 *   JMX Agent                                                        *
 *   Wrapper Manager: Mule PID #131, Wrapper PID #129                 *
 **********************************************************************
+INFO  2017-12-21 22:45:34,413 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'default'                               +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-12-21 22:45:34,633 [WrapperListener_start_runner] org.mule.lifecycle.AbstractLifecycleManager: Initialising RegistryBroker
+INFO  2017-12-21 22:45:34,817 [WrapperListener_start_runner] org.mule.module.extension.internal.manager.DefaultExtensionManager: Starting discovery of extensions
+INFO  2017-12-21 22:45:35,033 [WrapperListener_start_runner] org.mule.module.extension.internal.manager.DefaultExtensionManager: Discovered 1 extensions
+INFO  2017-12-21 22:45:35,033 [WrapperListener_start_runner] org.mule.module.extension.internal.manager.DefaultExtensionManager: Registering extension validation (version 3.8)
+INFO  2017-12-21 22:45:35,138 [WrapperListener_start_runner] org.mule.config.spring.MuleArtifactContext: Refreshing org.mule.config.spring.MuleArtifactContext@dde1134: startup date [Thu Dec 21 22:45:35 UTC 2017]; root of context hierarchy
+INFO  2017-12-21 22:45:36,568 [WrapperListener_start_runner] org.mule.config.spring.processors.NoDevkitInjectorProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+WARN  2017-12-21 22:45:37,517 [WrapperListener_start_runner] org.mule.module.ognl.expression.OgnlExpressionEvaluator: OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+INFO  2017-12-21 22:45:37,863 [WrapperListener_start_runner] org.mule.lifecycle.AbstractLifecycleManager: Initialising model: _muleSystemModel
+INFO  2017-12-21 22:45:37,889 [WrapperListener_start_runner] org.mule.util.journal.TransactionJournal: Using files for tx logs /opt/mule/./.mule/default/queue-tx-log/tx1.log and /opt/mule/./.mule/default/queue-tx-log/tx2.log
+INFO  2017-12-21 22:45:37,910 [WrapperListener_start_runner] org.mule.util.journal.TransactionJournal: Using files for tx logs /opt/mule/./.mule/default/queue-xa-tx-log/tx1.log and /opt/mule/./.mule/default/queue-xa-tx-log/tx2.log
+INFO  2017-12-21 22:45:38,389 [WrapperListener_start_runner] org.mule.config.spring.SpringXmlConfigurationBuilder: Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='/opt/mule/apps/default/mule-config.xml'}]"
+INFO  2017-12-21 22:45:38,390 [WrapperListener_start_runner] org.mule.config.builders.AutoConfigurationBuilder: Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='/opt/mule/apps/default/mule-config.xml'}]"
+INFO  2017-12-21 22:45:38,391 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'default'                                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-12-21 22:45:38,394 [WrapperListener_start_runner] org.mule.util.queue.QueueXaResourceManager: Starting ResourceManager
+INFO  2017-12-21 22:45:38,394 [WrapperListener_start_runner] org.mule.util.queue.QueueXaResourceManager: Started ResourceManager
+INFO  2017-12-21 22:45:38,419 [WrapperListener_start_runner] org.mule.lifecycle.AbstractLifecycleManager: Starting model: _muleSystemModel
+INFO  2017-12-21 22:45:38,476 [WrapperListener_start_runner] org.mule.DefaultMuleContext: 
+**********************************************************************
+* Application: default                                               *
+* OS encoding: /, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Wrapper Manager: Mule PID #135, Wrapper PID #133                 *
+**********************************************************************

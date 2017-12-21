@@ -499,3 +499,144 @@ Message properties:
   OUTBOUND scoped properties:
   SESSION scoped properties:
 
+INFO  2017-12-21 22:45:38,611 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'mule-hello'                            +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-12-21 22:45:38,619 [WrapperListener_start_runner] org.mule.lifecycle.AbstractLifecycleManager: Initialising RegistryBroker
+INFO  2017-12-21 22:45:38,629 [WrapperListener_start_runner] org.mule.module.extension.internal.manager.DefaultExtensionManager: Starting discovery of extensions
+INFO  2017-12-21 22:45:38,652 [WrapperListener_start_runner] org.mule.module.extension.internal.manager.DefaultExtensionManager: Discovered 1 extensions
+INFO  2017-12-21 22:45:38,652 [WrapperListener_start_runner] org.mule.module.extension.internal.manager.DefaultExtensionManager: Registering extension validation (version 3.8)
+INFO  2017-12-21 22:45:38,657 [WrapperListener_start_runner] org.mule.config.spring.MuleArtifactContext: Refreshing org.mule.config.spring.MuleArtifactContext@58511fda: startup date [Thu Dec 21 22:45:38 UTC 2017]; root of context hierarchy
+INFO  2017-12-21 22:45:38,953 [WrapperListener_start_runner] org.mule.config.spring.processors.NoDevkitInjectorProcessor: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+WARN  2017-12-21 22:45:39,036 [WrapperListener_start_runner] org.springframework.beans.GenericTypeAwarePropertyDescriptor: Invalid JavaBean property 'port' being accessed! Ambiguous write methods found next to actually used [public void org.mule.endpoint.URIBuilder.setPort(java.lang.String)]: [public void org.mule.endpoint.URIBuilder.setPort(int)]
+WARN  2017-12-21 22:45:39,131 [WrapperListener_start_runner] org.mule.transport.http.HttpConnector: HTTP transport is deprecated and will be removed in Mule 4.0. Use HTTP module instead.
+INFO  2017-12-21 22:45:39,265 [WrapperListener_start_runner] org.mule.lifecycle.AbstractLifecycleManager: Initialising connector: connector.http.mule.default
+INFO  2017-12-21 22:45:39,374 [WrapperListener_start_runner] org.mule.lifecycle.AbstractLifecycleManager: Initialising model: _muleSystemModel
+INFO  2017-12-21 22:45:39,376 [WrapperListener_start_runner] org.mule.construct.FlowConstructLifecycleManager: Initialising flow: HelloWorldFlow
+INFO  2017-12-21 22:45:39,377 [WrapperListener_start_runner] org.mule.exception.DefaultMessagingExceptionStrategy: Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@5f6e216e
+INFO  2017-12-21 22:45:39,407 [WrapperListener_start_runner] org.mule.processor.SedaStageLifecycleManager: Initialising service: HelloWorldFlow.stage1
+INFO  2017-12-21 22:45:39,422 [WrapperListener_start_runner] org.mule.component.ComponentLifecycleManager: Initialising component: component.1974151500
+INFO  2017-12-21 22:45:39,431 [WrapperListener_start_runner] org.mule.util.journal.TransactionJournal: Using files for tx logs /opt/mule/./.mule/mule-hello/queue-tx-log/tx1.log and /opt/mule/./.mule/mule-hello/queue-tx-log/tx2.log
+INFO  2017-12-21 22:45:39,432 [WrapperListener_start_runner] org.mule.util.journal.TransactionJournal: Using files for tx logs /opt/mule/./.mule/mule-hello/queue-xa-tx-log/tx1.log and /opt/mule/./.mule/mule-hello/queue-xa-tx-log/tx2.log
+INFO  2017-12-21 22:45:39,453 [WrapperListener_start_runner] org.mule.config.spring.SpringXmlConfigurationBuilder: Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='/opt/mule/apps/mule-hello/HelloWorld.xml'}]"
+INFO  2017-12-21 22:45:39,453 [WrapperListener_start_runner] org.mule.config.builders.AutoConfigurationBuilder: Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='/opt/mule/apps/mule-hello/HelloWorld.xml'}]"
+INFO  2017-12-21 22:45:39,454 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'mule-hello'                                +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-12-21 22:45:39,455 [WrapperListener_start_runner] org.mule.util.queue.QueueXaResourceManager: Starting ResourceManager
+INFO  2017-12-21 22:45:39,455 [WrapperListener_start_runner] org.mule.util.queue.QueueXaResourceManager: Started ResourceManager
+INFO  2017-12-21 22:45:39,460 [WrapperListener_start_runner] org.mule.transport.http.HttpConnector: Connected: HttpConnector
+{
+  name=connector.http.mule.default
+  lifecycle=initialise
+  this=5060d03a
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[http]
+  serviceOverrides=<none>
+}
+
+INFO  2017-12-21 22:45:39,461 [WrapperListener_start_runner] org.mule.transport.http.HttpConnector: Starting: HttpConnector
+{
+  name=connector.http.mule.default
+  lifecycle=initialise
+  this=5060d03a
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[http]
+  serviceOverrides=<none>
+}
+
+INFO  2017-12-21 22:45:39,462 [WrapperListener_start_runner] org.mule.lifecycle.AbstractLifecycleManager: Starting connector: connector.http.mule.default
+INFO  2017-12-21 22:45:39,466 [WrapperListener_start_runner] org.mule.lifecycle.AbstractLifecycleManager: Starting model: _muleSystemModel
+INFO  2017-12-21 22:45:39,467 [WrapperListener_start_runner] org.mule.construct.FlowConstructLifecycleManager: Starting flow: HelloWorldFlow
+INFO  2017-12-21 22:45:39,469 [WrapperListener_start_runner] org.mule.processor.SedaStageLifecycleManager: Starting service: HelloWorldFlow.stage1
+INFO  2017-12-21 22:45:39,473 [WrapperListener_start_runner] org.mule.component.ComponentLifecycleManager: Starting component: component.1974151500
+INFO  2017-12-21 22:45:39,500 [WrapperListener_start_runner] org.mule.transport.http.HttpConnector: Registering listener: HelloWorldFlow on endpointUri: http://0.0.0.0:8181
+INFO  2017-12-21 22:45:39,514 [WrapperListener_start_runner] org.mule.transport.service.DefaultTransportServiceDescriptor: Loading default response transformer: org.mule.transport.http.transformers.MuleMessageToHttpResponse
+INFO  2017-12-21 22:45:39,572 [WrapperListener_start_runner] org.mule.lifecycle.AbstractLifecycleManager: Initialising: 'null'. Object is: HttpMessageReceiver
+INFO  2017-12-21 22:45:39,579 [WrapperListener_start_runner] org.mule.transport.http.HttpMessageReceiver: Connecting clusterizable message receiver
+INFO  2017-12-21 22:45:39,585 [WrapperListener_start_runner] org.mule.lifecycle.AbstractLifecycleManager: Starting: 'null'. Object is: HttpMessageReceiver
+INFO  2017-12-21 22:45:39,585 [WrapperListener_start_runner] org.mule.transport.http.HttpMessageReceiver: Starting clusterizable message receiver
+INFO  2017-12-21 22:45:39,593 [WrapperListener_start_runner] org.mule.module.management.agent.AbstractJmxAgent: Attempting to register service with name: Mule.mule-hello:type=Endpoint,service="HelloWorldFlow",connector=connector.http.mule.default,name="endpoint.http.0.0.0.0.8181"
+INFO  2017-12-21 22:45:39,594 [WrapperListener_start_runner] org.mule.module.management.agent.AbstractJmxAgent: Registered Endpoint Service with name: Mule.mule-hello:type=Endpoint,service="HelloWorldFlow",connector=connector.http.mule.default,name="endpoint.http.0.0.0.0.8181"
+INFO  2017-12-21 22:45:39,596 [WrapperListener_start_runner] org.mule.module.management.agent.AbstractJmxAgent: Registered Connector Service with name Mule.mule-hello:type=Connector,name="connector.http.mule.default.1"
+INFO  2017-12-21 22:45:39,597 [WrapperListener_start_runner] org.mule.DefaultMuleContext: 
+**********************************************************************
+* Application: mule-hello                                            *
+* OS encoding: /, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   JMX Agent                                                        *
+*   Wrapper Manager: Mule PID #135, Wrapper PID #133                 *
+**********************************************************************
+INFO  2017-12-21 22:46:39,487 [[mule-hello].connector.http.mule.default.receiver.02] org.mule.tck.functional.FunctionalTestComponent: 
+********************************************************************************
+* Message Received in service: HelloWorldFlow. Content is: /                   *
+********************************************************************************
+INFO  2017-12-21 22:46:39,494 [[mule-hello].connector.http.mule.default.receiver.02] org.mule.tck.functional.FunctionalTestComponent: Full Message payload: 
+/
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    Accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+    Accept-Encoding=gzip, deflate, br
+    Accept-Language=en-US,en;q=0.9
+    Connection=true
+    Host=localhost:8181
+    Keep-Alive=true
+    MULE_ORIGINATING_ENDPOINT=endpoint.http.0.0.0.0.8181
+    MULE_REMOTE_CLIENT_ADDRESS=/172.18.0.1:51692
+    Upgrade-Insecure-Requests=1
+    User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    http.context.path=/
+    http.context.uri=http://0.0.0.0:8181
+    http.headers={Keep-Alive=true, Accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8, Upgrade-Insecure-Requests=1, Connection=true, User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36, Host=localhost:8181, Accept-Encoding=gzip, deflate, br, Accept-Language=en-US,en;q=0.9}
+    http.method=GET
+    http.query.params={}
+    http.query.string=
+    http.relative.path=
+    http.request=/
+    http.request.path=/
+    http.version=HTTP/1.1
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+
+INFO  2017-12-21 22:46:39,707 [[mule-hello].connector.http.mule.default.receiver.02] org.mule.tck.functional.FunctionalTestComponent: 
+********************************************************************************
+* Message Received in service: HelloWorldFlow. Content is: /favicon.ico        *
+********************************************************************************
+INFO  2017-12-21 22:46:39,707 [[mule-hello].connector.http.mule.default.receiver.02] org.mule.tck.functional.FunctionalTestComponent: Full Message payload: 
+/favicon.ico
+
+Message properties:
+  INVOCATION scoped properties:
+  INBOUND scoped properties:
+    Accept=image/webp,image/apng,image/*,*/*;q=0.8
+    Accept-Encoding=gzip, deflate, br
+    Accept-Language=en-US,en;q=0.9
+    Connection=true
+    Host=localhost:8181
+    Keep-Alive=true
+    MULE_ORIGINATING_ENDPOINT=endpoint.http.0.0.0.0.8181
+    MULE_REMOTE_CLIENT_ADDRESS=/172.18.0.1:51694
+    Referer=http://localhost:8181/
+    User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    http.context.path=/
+    http.context.uri=http://0.0.0.0:8181
+    http.headers={Keep-Alive=true, Accept=image/webp,image/apng,image/*,*/*;q=0.8, Referer=http://localhost:8181/, Connection=true, User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36, Host=localhost:8181, Accept-Encoding=gzip, deflate, br, Accept-Language=en-US,en;q=0.9}
+    http.method=GET
+    http.query.params={}
+    http.query.string=
+    http.relative.path=favicon.ico
+    http.request=/favicon.ico
+    http.request.path=/favicon.ico
+    http.version=HTTP/1.1
+  OUTBOUND scoped properties:
+  SESSION scoped properties:
+

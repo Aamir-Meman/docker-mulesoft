@@ -4,7 +4,8 @@ services:
     build:
      context: .
      dockerfile: dockerfile
-    image: mulesoft
+    image: mulesoft:docker
+    container_name: mulesoft-docker
     volumes:
     - ./apps:/opt/mule/apps
     - ./conf:/opt/mule/conf

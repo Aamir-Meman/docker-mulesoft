@@ -364,3 +364,68 @@ INFO  2017-09-12 22:02:28,169 [WrapperListener_start_runner] org.mule.module.lau
 * mule-hello                                    * default                        * DEPLOYED           *
 *******************************************************************************************************
 
+--> Wrapper Started as Console
+Launching a JVM...
+OpenJDK 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+OpenJDK 64-Bit Server VM warning: Using the ParNew young collector with the Serial old collector is deprecated and will likely be removed in a future release
+Starting the Mule Container...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+INFO  2017-12-21 22:45:34,223 [WrapperListener_start_runner] org.mule.module.launcher.MuleContainer: 
+**********************************************************************
+* Mule Runtime and Integration Platform                              *
+* Version: 3.8.0 Build: 4afebcb3                                     *
+* MuleSoft, Inc.                                                     *
+* For more information go to http://www.mulesoft.org                 *
+*                                                                    *
+* Server started: 12/21/17 10:45 PM                                  *
+* JDK: 1.8.0_111 (mixed mode)                                        *
+* OS: Linux (4.9.49-moby, amd64)                                     *
+* Host: 2d70f17f28c3 (172.18.0.2)                                    *
+**********************************************************************
+INFO  2017-12-21 22:45:34,228 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Initializing core extensions
+INFO  2017-12-21 22:45:34,228 [WrapperListener_start_runner] org.mule.module.launcher.coreextension.DefaultMuleCoreExtensionManager: Starting core extensions
+INFO  2017-12-21 22:45:34,247 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-12-21 22:45:34,258 [WrapperListener_start_runner] org.mule.module.launcher.MuleSharedDomainClassLoader: Using domain dir /opt/mule/domains/default for domain default
+INFO  2017-12-21 22:45:34,351 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started domain 'default'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-12-21 22:45:34,362 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: default
+INFO  2017-12-21 22:45:34,372 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'default'                                        +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-12-21 22:45:38,476 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'default'                                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-12-21 22:45:38,547 [WrapperListener_start_runner] org.mule.module.launcher.DefaultArchiveDeployer: ================== New Exploded Artifact: mule-hello
+INFO  2017-12-21 22:45:38,556 [WrapperListener_start_runner] org.mule.module.launcher.application.DefaultMuleApplication: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ New app 'mule-hello'                                     +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-12-21 22:45:39,597 [WrapperListener_start_runner] org.mule.module.launcher.MuleDeploymentService: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Started app 'mule-hello'                                 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-12-21 22:45:39,602 [WrapperListener_start_runner] org.mule.module.launcher.DeploymentDirectoryWatcher: 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Mule is up and kicking (every 5000ms)                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+INFO  2017-12-21 22:45:39,631 [WrapperListener_start_runner] org.mule.module.launcher.StartupSummaryDeploymentListener: 
+**********************************************************************
+*              - - + DOMAIN + - -               * - - + STATUS + - - *
+**********************************************************************
+* default                                       * DEPLOYED           *
+**********************************************************************
+
+*******************************************************************************************************
+*            - - + APPLICATION + - -            *       - - + DOMAIN + - -       * - - + STATUS + - - *
+*******************************************************************************************************
+* default                                       * default                        * DEPLOYED           *
+* mule-hello                                    * default                        * DEPLOYED           *
+*******************************************************************************************************
+
