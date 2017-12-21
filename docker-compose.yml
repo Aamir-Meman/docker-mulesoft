@@ -3,7 +3,7 @@ services:
   mule-app:
     build:
      context: .
-     dockerfile: Dockerfile
+     dockerfile: dockerfile
     image: mulesoft
     volumes:
     - ./apps:/opt/mule/apps
